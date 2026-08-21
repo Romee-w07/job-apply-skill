@@ -1,0 +1,17 @@
+# Personal data and resumes
+records/*personal-info*.json
+records/applications.jsonl
+records/*.pdf
+records/*.docx
+*.pdf
+*.docx
+
+# Local secrets and exports
+.env
+.env.*
+config.local.json
+*.xlsx
+*.csv
+
+# System files
+.DS_Store
