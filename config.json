@@ -1,0 +1,44 @@
+{
+  "submit_mode": "confirm",
+  "login_preferences": {
+    "preferred_method": "phone",
+    "phone": "",
+    "otp_policy": "ask_each_time_never_store"
+  },
+  "tracking": {
+    "enabled": false,
+    "provider": "feishu_bitable",
+    "table_url": "",
+    "setup_policy": "没有用户自己的表格链接时只提示创建或配置，绝不使用技能作者、分享者或示例中的表格。"
+  },
+  "form_preferences": {
+    "current_location_source": "job_base",
+    "current_location_rule": "填写具体岗位官方详情页标注的工作地点；官网只明确到省市时只填省市，不补区县；提交前展示岗位 Base 到当前所在地的映射供确认。"
+  },
+  "job_preferences": {
+    "technical_roles": false,
+    "include": [
+      "产品经理",
+      "用户产品经理",
+      "产品运营",
+      "商业化运营",
+      "销售运营",
+      "海外非技术岗",
+      "非技术管培生或培训生",
+      "电商相关非技术岗"
+    ],
+    "exclude": [
+      "实习",
+      "实习生",
+      "日常实习",
+      "暑期实习",
+      "研发",
+      "算法",
+      "工程",
+      "测试",
+      "技术运维",
+      "设计"
+    ],
+    "notes": "默认只找正式校招或管培生/培训生中的非技术岗位，排除所有实习、日常实习和暑期实习；只有用户本次明确要求实习时才临时解除排除。电商方向可包含产品经理、用户产品、产品运营、商业化/销售运营、商家/行业运营、增长运营和非技术管培岗位；用户临时指定其他方向时仅覆盖本次。每次找岗位时必须同时核实并汇报该公司/批次最多可投岗位数、额外投递机会是否占用名额，以及提交后能否修改简历或志愿。"
+  }
+}
