@@ -1,0 +1,7 @@
+interface:
+  display_name: "Job Apply 秋招投递"
+  short_description: "查找校招岗位、核实规则、网申投递并更新台账"
+  default_prompt: "Use $job-apply to find suitable formal campus roles and provide verified official links."
+
+policy:
+  allow_implicit_invocation: true
